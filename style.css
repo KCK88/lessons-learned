@@ -2,7 +2,55 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+#titulo {
+    margin: 0px;
+    width: 1515px;
+    color: aliceblue;
+    font-size: 48px;
+    font-family: Impact, sans-serif;
+    line-height: 1em;
+}
+
 #cabecalho {
     position: fixed;
     top: 0px;
+    background-color: rgb(19 138 14);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#minha_foto {
+    width: 250px;
+    position: absolute;
+    top: 145px;
+    border-radius: 10px;
+}
+
+
+#licoes_aprendidas {
+    display: inline-block;
+    padding: 10px;
+    margin: 2em;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    margin: 2em;
+}
+
+.lado-esquerdo{
+display: inline-block;
+}
+.lado-direito{
+display: inline-block;
+padding: 50px;
+margin: 50px;
+}
+p{
+    margin: unset;
 }
